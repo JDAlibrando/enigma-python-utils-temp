@@ -20,5 +20,5 @@ RUN pip install --no-cache-dir \
         matplotlib==3.11.1 \
         numpy==2.5.2
 
-RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu \
+RUN pip install --no-cache-dir torch torchvision --index-url https://download.pytorch.org/whl/cpu \
     && pip install --no-cache-dir hd-bet
