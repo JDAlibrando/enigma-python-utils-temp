@@ -19,3 +19,6 @@ RUN pip install --no-cache-dir \
         nibabel==5.4.2 \
         matplotlib==3.11.1 \
         numpy==2.5.2
+
+RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu \
+    && pip install --no-cache-dir hd-bet
